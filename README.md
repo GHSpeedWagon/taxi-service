@@ -19,7 +19,7 @@ ___
 * Presentation level as JSP pages
 ___
 ## 📌Relations in db:
-![imq_3.png](../../join-db-diagram.png)
+![img_3.png](img_3.png)
 ___
 ## 💻Technologies:
 * JDK 11 or later
