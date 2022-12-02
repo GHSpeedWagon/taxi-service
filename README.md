@@ -1,25 +1,25 @@
 # 🚕TAXI-SERVICE
 
-__Web application that use CRUD methods, SOLID principles, client-server architecture__
+__Web application is written according to SOLID principles, client-server architecture__
 ___
 ## 🧰Functions:
-* registration
-* authentication
-* ![img_2.png](img_2.png)
+* Registration new driver
+* Authentication driver
 * Create/Delete/Display cars
 * Create/Delete/Display manufacturers
 * Create/Delete/Display drivers
 * Add driver to car
-* display drivers cars
-* ![img_1.png](img_1.png)
+* Display drivers cars
+* ![img_2.png](pictures/img_2.png)
+* ![img_1.png](pictures/img_1.png)
 ___
-## 🔧structure
-* Data Access Object layer CRUD operations with DB
+## 🔧Structure
+* Data Access Object layer uses CRUD methods with DB
 * Services with logic
 * Presentation level as JSP pages
 ___
 ## 📌Relations in db:
-![img_3.png](img_3.png)
+![img_3.png](pictures/img_3.png)
 ___
 ## 💻Technologies:
 * JDK 11 or later
@@ -30,7 +30,7 @@ ___
 * JSTL 1.2
 ___
 ## ⚙Installation
-1. copy data from init_db.sql into db
-2. configure ConnectionUtil class with your parameters
-3. download tomcat 9.0.50
-4. edit configuration in your IDE
+1. Copy data from [init_db.sql](src/main/resources/init_db.sql) into db
+2. Configure [ConnectionUtil](src/main/java/taxi/util/ConnectionUtil.java) class with your parameters
+3. Download tomcat 9.0.50
+4. Edit configuration in your IDE
